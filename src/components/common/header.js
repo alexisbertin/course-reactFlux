@@ -6,12 +6,13 @@ var Header = React.createClass({
     return (
       <nav className="navbar navbar-default">
         <div className="container-fluid">
-            <span className="navbar-brand">Menu</span>
-            <ul className="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/#authors">Authors</a></li>
-              <li><a href="/#about">About</a></li>
-            </ul>
+          <span className="navbar-brand">Menu</span>
+          <ul className="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#authors">Authors</a></li>
+            <li><a href="/#authorsAdd">Manage Authors</a></li>
+            <li><a href="/#about">About</a></li>
+          </ul>
         </div>
       </nav>
     );
